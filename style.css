@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav
+{
+    width: 100%;
+    height: 80px;
+    background: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+nav h2
+{
+    font-family: cursive;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.collection
+{
+    display: flex;
+    list-style: none;
+}
+
+.items
+{
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+nav > button
+{
+    padding: 7px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    /* cursor: pointer; -> kursorning turlaridan biri */
+}
+
+.banner
+{
+    width: 100%;
+    height: 577px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inbanner
+{
+    width: 50%;
+    height: 50%;
+    padding-left: 3%;
+    color: #fff;
+}
+.title
+{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.lasttitle
+{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.desc
+{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.banner img{
+    width: 400px;
+    height: 400px;
+    margin-right: 5%;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
